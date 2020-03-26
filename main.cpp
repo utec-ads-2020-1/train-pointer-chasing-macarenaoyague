@@ -90,3 +90,7 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
         cout<<output[i]<<endl;
 }
 
+
+//https://judgegirl.csie.org/problem/0/50092
+//falta lo de los espacios
+//    A 3 B 0
