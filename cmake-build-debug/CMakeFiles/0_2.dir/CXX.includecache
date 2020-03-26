@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macarena/Documents/ALGORITMOS/Semana 0/train-pointer-chasing-macarenaoyague/main.cpp
+iostream
+-
+sstream
+-
+vector
+-
+
