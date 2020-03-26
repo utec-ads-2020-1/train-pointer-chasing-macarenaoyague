@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 #include <sstream>
@@ -36,7 +35,6 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
     string line;
     vector <bool> output;
     string word;
-    int g=0;
 
     while (getline(cin, line)){
         vector <string> words;
@@ -53,7 +51,8 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
         else {
             stringstream stream(line);
             while (getline(stream, word, ' '))
-                words.push_back(word);
+                if (word!="")
+                    words.push_back(word);
 
             //check character integer character integer
             if (words.size()!=4)
@@ -90,3 +89,7 @@ void chasing(int **A[], int a, int *B[], int b, int C[], int c){
         cout<<output[i]<<endl;
 }
 
+
+//https://judgegirl.csie.org/problem/0/50092
+//falta lo de los espacios
+//    A 3 B 0
